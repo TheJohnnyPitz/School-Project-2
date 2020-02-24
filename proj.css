@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+#header   {background: #036 url(images/banner_off.jpg);
+	       height: 60px;
+		   width: 600px;
+		   margin-left: auto;
+		   margin-right: auto;}
+
+h1        {position: absolute;
+	       height: 0;
+           overflow: hidden;}
+		   
+h2, h3, h4, h5 {text-align: center;}
+
+#layer1 {position:relative; font-size:50px; z-index:2; text-align: center;}
+#layer2 {position:relative; top:-75px; left:5; color:red; font-size:80px; z-index: 1; text-align: center;}
+
+#nav {text-align: center;
+      margin: 1em;
+	  background-color: #F30;
+	  height: 1.5em;}
+		   
+#nav a {display: inline;
+	   color: #FFF;
+	   margin: 0.5em;
+	   text-decoration: none;}	
+
+#nav a:visited {color: #ccc}	   
+#nav a:hover {background: #666;} 
+		   
+#container {position absolute;
+            width: 780px;
+			height: auto;
+            border-width: 0;
+			margin: auto;
+            margin-top: 1px;
+			background-color: #999;
+			padding-top: 1em;}
+			
+ol a, p a {text-decoration: underline;
+      color: #fff}
+	  
+#sidebar {float: right; width: 150px;}
+			
+#content {margin: 1em;}
+
+#price h3 {text-align: left}
+
+#foot {text-align: left;
+	   background-color: #F30;
+	   width: 780px;
+	   height: 150px;
+	   margin: 0;}
+	   
+#foot ul {list-style: none;}
+
+#foot ul a {text-decoration: underline;
+            color: #FFF;}
+
+#foot a:visited {color: #ccc}	   
+#foot a:hover {background: #666;} 
+
+#main {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+}
+#info {
+	position: relative;
+	top: -150px;
+	left: 251px;
+	width: 250px;
+}
+#extlinks {
+	position: relative;
+	top: -300px;
+	left: 502px;
+	width: 250px;
+}
+			
+img {border: solid #fff 1px;
+     margin: 0.5em 1em;}
+
+fieldset {margin-bottom: 10px; padding: 10px;}
+	 
+label.blockLabel {display: block; position: relative; margin: 12px 0px}
+label.blockLabel input, label.blockLabel select {position: absolute; left: 150px; margin-left: 20px;}
+
+address {text-align: center;}
+	 
+#banners {margin: 0.5em 1em;}
+
+#banners div {display:none;}
+
+#banners #banner1 {display:block;}
+			

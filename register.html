@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CISY 3223 Project 2</title>
+<link href="proj.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+<h1 id="top">Case Town</h1>
+</div>
+<div id="nav">
+<a href="index.html" target="_self">Home</a>
+<a href="product.html" target="_self">Products</a>
+<a href="company.html" target="_self">Company News</a>
+<a href="about.html" target="_self">About Us</a>
+<a href="contact.html" target="_self">Contact Us</a>
+<a href="video.html" target="_self">Install Cover</a>
+<a href="register.html" target="_self">Register</a>
+</div>
+<div id="content">
+<h2>Register to Buy Products</h2>
+<h3>Must be 18 or Older to Register</h3>
+<form id="form1" name="form1" method="post" action="http://www.casetownsubmission.com"> <!--This was made up to make use of the hidden field-->
+<legend>Registration</legend>
+<fieldset>
+  <input type="hidden" name="oEmail" id="oEmail" value="pitzerjm@casetown.com" />
+  <fieldset>
+    <legend>Required Information</legend>
+      <label for="fName" class="blockLabel">First Name:
+      <input type="text" name="fName" id="fName" /></label>      
+      <label for="lName" class="blockLabel">Last Name:
+      <input type="text" name="lName" id="lName" /></label>     
+      <legend>Age Group:
+      <label for="lt18">Under 18:</label>
+      <input type="radio" name="age" id="lt18" value="lt18" />
+      <label for="18to39">18 to 39:</label>
+      <input type="radio" name="age" id="18to39" value="18to39" />
+      <label for="gt40">40 or Older:</label>
+      <input type="radio" name="age" id="gt40" value="gt40" /></legend>   
+      <label for="address" class="blockLabel">Address:
+      <input type="text" name="address" id="address" /></label>
+      <label for="city" class="blockLabel">City:
+      <input type="text" name="city" id="city" /></label>
+      <label for="state" class="blockLabel">State:
+      <select name="state" id="state">
+      <option>AK</option>
+      <option>AL</option>
+      <option>AR</option>
+      <option>AZ</option>
+      <option>CA</option>
+      <option>CO</option>
+      <option>CT</option>
+      <option>DE</option>
+      <option>FL</option>
+      <option>GA</option>
+      <option>HI</option>
+      <option>IA</option>
+      <option>ID</option>
+      <option>IL</option>
+      <option>IN</option>
+      <option>KS</option>
+      <option>KY</option>
+      <option>LA</option>
+      <option>MA</option>
+      <option>MD</option>
+      <option>ME</option>
+      <option>MI</option>
+      <option>MN</option>
+      <option>MO</option>
+      <option>MS</option>
+      <option>MT</option>
+      <option>NC</option>
+      <option>ND</option>
+      <option>NE</option>
+      <option>NH</option>
+      <option>NJ</option>
+      <option>NM</option>
+      <option>NV</option>
+      <option>NY</option>
+      <option>OH</option>
+      <option>OK</option>
+      <option>OR</option>
+      <option>PA</option>
+      <option>RI</option>
+      <option>SC</option>
+      <option>SD</option>
+      <option>TN</option>
+      <option>TX</option>
+      <option>UT</option>
+      <option>VA</option>
+      <option>VT</option>
+      <option>WA</option>
+      <option>WI</option>
+      <option>WV</option>
+      <option>WY</option>
+      </select></label>
+      <label for="zip" class="blockLabel">ZIP:
+      <input type="text" name="zip" id="zip" maxlength="10"/></label>
+      <label for="phone" class="blockLabel">Phone Number:
+      <input type="text" name="phone" id="phone" /></label>
+      <label for="yEmail" class="blockLabel">Your Email:
+      <input type="email" name="yEmail" id="yEmail" /></label>
+      <label for="username" class="blockLabel">Desired Username:
+      <input type="text" name="username" id="username" /></label>
+      <label for="password" class="blockLabel">Password:
+      <input type="password" name="password" id="password" /></label>
+      <label for="cPassword" class="blockLabel">Confirm Password:
+      <input type="password" name="cPassword" id="cPassword" /></label>
+  </fieldset>
+      <br />
+      <fieldset>
+      <legend>Interests (Check all that apply)</legend>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="interests" value="laptops" id="interests_0" />
+            Laptops</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="interests" value="desktops" id="interests_1" />
+            Desktops</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="interests" value="news" id="interests_2" />
+            Tech News</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="interests" value="contests" id="interests_3" />
+            Contests</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="interests" value="other" id="interests_4" />
+            Other</label></td>
+        </tr>
+      </table>
+      <br />
+      <label for="more">If you checked other please enter your interests in the box below</label>
+      <textarea name="more" id="more" cols="50" rows="5"></textarea>
+      </fieldset>
+      <br />
+      <fieldset>
+      <legend>Discounts</legend>
+      <label for="discount">Choose the discount you would be most interested in:</label>
+      <br />
+      <select name="discount" id="discount" size="5" multiple="multiple">
+         <option>10% Off All Items</option>
+         <option>25% Off All Laptop Covers</option>
+         <option>25% Off All Desktop Cases</option>
+         <option>40% Off Special Laptop Covers</option>
+         <option>40% Off Special Desktop Cases</option>
+         <option>Buy 1 Get 1 Free</option>
+      </select>
+      </fieldset>
+<input type="submit" name="submit" id="submit" value="Submit" />
+<input type="reset" name="reset" id="reset" value="Clear Form" />
+</fieldset>
+</form>
+</div>
+<div id="foot">
+<div id="main">
+<h5>Main Pages</h5>
+<ul>
+   <li><a href="index.html" target="_self">Home</a></li>
+   <li><a href="product.html" target="_self">Products</a></li>
+   <li><a href="video.html" target="_self">Install Cover</a></li>
+   <li><a href="register.html" target="_self">Register</a></li>
+   <li><a href="#top">Return to top of page</a></li>
+</ul>
+</div>
+<div id="info">
+  <h5>Company Information/Monthly Contest</h5>
+  <ul>
+    <li><a href="company.html" target="_self">Company News</a></li>
+    <li><a href="about.html" target="_self">About Us</a></li>
+    <li><a href="contact.html" target="_self">Contact Us</a></li>
+    <li><a href="contest.html" target="_self">Monthly Contest</a></li>
+  </ul>
+</div>
+<div id="extlinks">
+  <h5>Off-site Links</h5>
+<ul>
+   <li><a href="http://www.tigerdirect.com/sectors/pccomponents/index.asp" target="_blank">PC Parts</a></li>
+   <li><a href="http://www.newegg.com/Store/SubCategory.aspx?SubCategory=32" target="_blank">Laptop Computers</a></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
